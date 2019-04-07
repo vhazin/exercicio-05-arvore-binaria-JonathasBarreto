@@ -17,7 +17,7 @@ int main(void) {
     scanf("%d", &teste); 
     
     if(teste <= 2000){
-        for (i = 0; i < teste; i++) {
+        for (; i < teste; i++) {
             scanf("%d", &nos); 
             if(nos>=1 && nos<=52){
                 scanf("%s %s", pre_ordem, ordem);
